@@ -29,7 +29,6 @@ class AjoutLivre : AppCompatActivity() {
         }
         ajoutLivre.setOnClickListener{
             myRef.push().key
-            livre= Livre(titre.text, )
         }
     }
 
